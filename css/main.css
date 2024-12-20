@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.root {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.theme-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.theme-btn #themeBtnDark {
+  display: none;
+}
+
+.dark-theme .theme-btn a {
+  color: yellow;
+}
+
+.light-theme .theme-btn a {
+  color: green;
+}
+
+.dark-theme.root {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-theme.root {
+  background-color: #fff;
+  color: #000;
+}
+
+.header h1 {
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+.header h1 small {
+  text-transform: lowercase;
+}
+
+.sidebar {
+  padding: 15px;
+}
+.sidebar .item {
+  margin-bottom: 10px;
+  padding: 5px 30px;
+  border: 1px solid #363636;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.sidebar .item:hover {
+  border-color: yellow;
+}
+
+.dark-theme .sidebar .item:hover {
+  border-color: yellow;
+  color: yellow;
+}
+
+.light-theme .sidebar .item:hover {
+  border-color: green;
+  color: green;
+}
+
+.homepage .book {
+  padding: 20px;
+  border: 1px solid #363636;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.homepage .book h4 {
+  transition: color 0.5s ease-in-out;
+}
+.homepage .book:hover {
+  border: 1px solid yellow;
+}
+
+.dark-theme .book:hover {
+  border-color: yellow;
+}
+.dark-theme .book:hover h4 {
+  color: yellow;
+}
+
+.light-theme .book:hover {
+  border-color: green;
+}
+.light-theme .book:hover h4 {
+  color: green;
+}/*# sourceMappingURL=main.css.map */
